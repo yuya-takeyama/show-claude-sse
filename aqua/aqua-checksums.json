@@ -1,0 +1,69 @@
+{
+  "checksums": [
+    {
+      "id": "github_release/github.com/cli/cli/v2.87.2/gh_2.87.2_linux_amd64.tar.gz",
+      "checksum": "18360B2243E3BF9C1457035DB45F6400AE4CF957DCC2F674E69717B4E0B14D55",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/cli/cli/v2.87.2/gh_2.87.2_linux_arm64.tar.gz",
+      "checksum": "E37EFDD8EC98425F44175040B5037C767BBD49F192AED1DE5AABC4B4EA9E22C5",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/cli/cli/v2.87.2/gh_2.87.2_macOS_amd64.zip",
+      "checksum": "5CE4DA6DA0F29E6AA46E54EA6ADB2528243D2BB517A7098E75CCA16A5D983D28",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/cli/cli/v2.87.2/gh_2.87.2_macOS_arm64.zip",
+      "checksum": "18D90C7AE5B462D47CC665D4C59DE61AF1E208EDB81A9ABEE1B5A82C94E91D94",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v3.9.0/pinact_darwin_amd64.tar.gz",
+      "checksum": "70F68407A05FA88843FBF9B400D979E6205489EF8AF251DACC21841A07989DF4",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v3.9.0/pinact_darwin_arm64.tar.gz",
+      "checksum": "23C8A4EDA8FD7949C8CBB1CFE6F3D01279402FE6201E9CB0A90447A5ECFDEF89",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v3.9.0/pinact_linux_amd64.tar.gz",
+      "checksum": "3829DA718DE38B1E914B974C3E77045A256999AF84789437A7305B09130D8A6A",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "github_release/github.com/suzuki-shunsuke/pinact/v3.9.0/pinact_linux_arm64.tar.gz",
+      "checksum": "34A957423002662C6289782B571660BEDA6A37449A76D763C8AD8B1B9A500A54",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/static.rust-lang.org/rustup/archive/1.28.2/aarch64-apple-darwin/rustup-init",
+      "checksum": "20EF5516C31B1AC2290084199BA77DBBCAA1406C45C1D978CA68558EF5964EF5",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/static.rust-lang.org/rustup/archive/1.28.2/aarch64-unknown-linux-gnu/rustup-init",
+      "checksum": "E3853C5A252FCA15252D07CB23A1BDD9377A8C6F3EFA01531109281AE47F841C",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/static.rust-lang.org/rustup/archive/1.28.2/x86_64-apple-darwin/rustup-init",
+      "checksum": "9C331076F62B4D0EDEAE63D9D1C9442D5FE39B37B05025EC8D41C5ED35486496",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "http/static.rust-lang.org/rustup/archive/1.28.2/x86_64-unknown-linux-gnu/rustup-init",
+      "checksum": "20A06E644B0D9BD2FBDBFD52D42540BDDE820EA7DF86E92E533C073DA0CDD43C",
+      "algorithm": "sha256"
+    },
+    {
+      "id": "registries/github_content/github.com/aquaproj/aqua-registry/v4.430.0/registry.yaml",
+      "checksum": "6D3C6F3AB630D0D4DBB143B9394D1BCDEC55B07CC5B6329863093610F5D2F780",
+      "algorithm": "sha256"
+    }
+  ]
+}
