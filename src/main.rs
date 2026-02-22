@@ -39,13 +39,17 @@ enum SseEvent {
     ContentBlockDelta { index: usize, delta: Delta },
 
     #[serde(rename = "content_block_stop")]
-    ContentBlockStop { index: usize },
+    ContentBlockStop {
+        #[allow(dead_code)]
+        index: usize,
+    },
 
     #[serde(rename = "message_delta")]
     MessageDelta {
         delta: MessageDeltaData,
         usage: Option<Usage>,
         #[serde(default)]
+        #[allow(dead_code)]
         context_management: Option<serde_json::Value>,
     },
 
@@ -70,6 +74,7 @@ struct MessageInfo {
     #[serde(default)]
     stop_reason: Option<String>,
     #[serde(default)]
+    #[allow(dead_code)]
     stop_sequence: Option<String>,
     #[serde(default)]
     usage: Option<Usage>,
@@ -80,6 +85,7 @@ struct MessageDeltaData {
     #[serde(default)]
     stop_reason: Option<String>,
     #[serde(default)]
+    #[allow(dead_code)]
     stop_sequence: Option<serde_json::Value>,
 }
 
@@ -100,19 +106,25 @@ enum ContentBlock {
     ToolUse {
         id: String,
         name: String,
+        #[allow(dead_code)]
         input: serde_json::Value,
     },
 
     #[serde(rename = "server_tool_use")]
     ServerToolUse {
+        #[allow(dead_code)]
         id: String,
+        #[allow(dead_code)]
         name: String,
+        #[allow(dead_code)]
         input: serde_json::Value,
     },
 
     #[serde(rename = "web_search_tool_result")]
     WebSearchToolResult {
+        #[allow(dead_code)]
         tool_use_id: String,
+        #[allow(dead_code)]
         content: serde_json::Value,
     },
 }
@@ -146,6 +158,7 @@ struct Usage {
     #[serde(default)]
     cache_creation: Option<CacheCreation>,
     #[serde(default)]
+    #[allow(dead_code)]
     server_tool_use: Option<serde_json::Value>,
     #[serde(default)]
     service_tier: Option<String>,

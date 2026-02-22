@@ -14,3 +14,5 @@ registries:
 packages:
   - name: rust-lang/rustup
     version: 1.28.2
+  - name: cli/cli
+    version: v2.87.2
