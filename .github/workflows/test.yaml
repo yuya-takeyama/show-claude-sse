@@ -12,9 +12,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: aquaproj/aqua-installer@v3
+      - uses: aquaproj/aqua-installer@v4.0.4
         with:
           aqua_version: v2.55.1
+          working_directory: ${{ github.workspace }}
 
       - name: Install Rust toolchain
         run: rustup default stable
