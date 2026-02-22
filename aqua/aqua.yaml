@@ -16,3 +16,5 @@ packages:
     version: 1.28.2
   - name: cli/cli
     version: v2.87.2
+  - name: suzuki-shunsuke/pinact
+    version: v3.9.0
